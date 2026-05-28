@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Miao — all-you-can-drink boba in Carrollton, TX. 100% customizable drinks, local artist merch, open until 2AM.">
+  <title>Miao</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/paws.png">
+  <link rel="apple-touch-icon" href="assets/paws.png">
+</head>
+<body>
+
+  <nav id="nav" class="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__wordmark">Miao</a>
+      <ul class="nav__links">
+        <li><a href="#menu" class="nav__link">Menu</a></li>
+        <li><a href="#find-us" class="nav__link">Find Us</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="hero__media">
+      <img
+        src="https://images.pexels.com/photos/37486085/pexels-photo-37486085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        alt=""
+        class="hero__image"
+        loading="eager"
+        fetchpriority="high"
+      >
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content container">
+      <p class="hero__label label reveal">Carrollton, TX · Open daily 1PM–2AM</p>
+      <h1 class="hero__headline reveal">Drink<br><em>without limits.</em></h1>
+      <p class="hero__price reveal">All-you-can-drink boba &mdash; <strong>$15</strong></p>
+      <a href="#menu" class="btn reveal">See the menu ↓</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu section">
+    <div class="container">
+      <div class="menu__layout">
+        <div class="menu__left">
+          <p class="label reveal">The menu</p>
+          <h2 class="menu__heading reveal">Build your<br>drink.</h2>
+          <div class="menu__pricing reveal">
+            <div class="menu__price-block">
+              <span class="menu__price-amount">$15</span>
+              <span class="menu__price-label">All You Can Drink</span>
+            </div>
+            <div class="menu__price-divider"></div>
+            <div class="menu__price-block">
+              <span class="menu__price-amount">$6.50</span>
+              <span class="menu__price-label">Single Drink</span>
+            </div>
+          </div>
+          <p class="menu__note reveal">Every drink is 100% customizable.<br>Mix and match until you find yours.</p>
+        </div>
+        <div class="menu__right">
+          <div class="menu__step reveal">
+            <p class="menu__step-label label">Step 1 &mdash; Pick your tea</p>
+            <ul class="menu__items">
+              <li>Saffron-Infused Thai Tea</li>
+              <li>4 Seasons Green Tea</li>
+              <li>Jasmine Green Tea</li>
+              <li>Assam Black Tea</li>
+              <li>Ceylon Black Tea</li>
+              <li>Water (Refresher)</li>
+            </ul>
+            <p class="menu__sub-note">Ask to make it a milk tea.</p>
+          </div>
+          <div class="menu__step reveal">
+            <p class="menu__step-label label">Step 2 &mdash; Pick your flavor</p>
+            <ul class="menu__items menu__items--grid">
+              <li>Brown Sugar</li>
+              <li>Watermelon</li>
+              <li>Lychee</li>
+              <li>Mango</li>
+              <li>Passion Fruit</li>
+              <li>Strawberry</li>
+              <li>Hibiscus</li>
+              <li>Peach</li>
+              <li>Pineapple</li>
+              <li>Dragon Fruit</li>
+              <li>Honeydew</li>
+              <li>Pomegranate</li>
+              <li>Raspberry</li>
+              <li>Green Apple</li>
+              <li>Grape</li>
+              <li>Kiwi</li>
+              <li>Orange</li>
+              <li>Wintermelon</li>
+              <li>Taro</li>
+              <li>Vanilla</li>
+              <li>Caramel</li>
+            </ul>
+          </div>
+          <div class="menu__step reveal">
+            <p class="menu__step-label label">Step 3 &mdash; Pick your sugar</p>
+            <ul class="menu__sugar">
+              <li>
+                <span class="menu__sugar-track"><span class="menu__sugar-bar" style="width:100%"></span></span>
+                <span class="menu__sugar-text">100%</span>
+              </li>
+              <li>
+                <span class="menu__sugar-track"><span class="menu__sugar-bar" style="width:75%"></span></span>
+                <span class="menu__sugar-text">75% &mdash; regular</span>
+              </li>
+              <li>
+                <span class="menu__sugar-track"><span class="menu__sugar-bar" style="width:50%"></span></span>
+                <span class="menu__sugar-text">50%</span>
+              </li>
+              <li>
+                <span class="menu__sugar-track"><span class="menu__sugar-bar" style="width:25%"></span></span>
+                <span class="menu__sugar-text">25%</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__extras reveal">
+        <p class="label">Also on the menu</p>
+        <ul class="menu__extras-list">
+          <li>
+            <span class="menu__extra-name">Chicken Kimchi Banh Mi</span>
+            <span class="menu__extra-price">$6.50</span>
+          </li>
+          <li>
+            <span class="menu__extra-name">Jiggly Flan</span>
+            <span class="menu__extra-price">$4.50</span>
+          </li>
+          <li>
+            <span class="menu__extra-name">Szechuan Pepper Fries</span>
+            <span class="menu__extra-price">$4.50</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="space" class="space">
+    <div class="space__media">
+      <img
+        src="https://images.pexels.com/photos/18721993/pexels-photo-18721993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        alt="Miao's warm café interior"
+        loading="lazy"
+        class="space__image"
+      >
+      <div class="space__overlay"></div>
+    </div>
+    <div class="space__panel container">
+      <div class="space__content">
+        <p class="label reveal">The space</p>
+        <h2 class="space__heading reveal">More than<br>a drink stop.</h2>
+        <p class="space__body reveal">Miao is a hangout — warm lighting, good seats, and walls lined with work from local artists. Pick up a keychain, a print, or just stay a while. We're open until 2AM for a reason.</p>
+        <a href="#find-us" class="btn btn--ghost reveal">Find us ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews section">
+    <div class="container">
+      <p class="label reviews__label reveal">What people say</p>
+      <div class="reviews__grid">
+        <blockquote class="review reveal">
+          <p class="review__quote">"If you're a boba lover, this all-you-can-drink spot is a dream come true. Perfectly balanced, not too sweet, with tons of fun flavors to try."</p>
+          <footer class="review__author">Oscar Campos</footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p class="review__quote">"Such a lovely establishment. Love love LOVE setting space aside for local artists to sell their stuff."</p>
+          <footer class="review__author">Emily Froelich</footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p class="review__quote">"I traveled all the way from Fort Worth to try this place and was not disappointed. The atmosphere is cozy, even as someone who came alone."</p>
+          <footer class="review__author">Lyric Rose</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="find-us" class="find-us section">
+    <div class="container">
+      <div class="find-us__layout">
+        <div class="find-us__info">
+          <p class="label reveal">Find us</p>
+          <h2 class="find-us__heading reveal">Come in.</h2>
+          <address class="find-us__address reveal">
+            2700 Old Denton Rd, Ste 103<br>
+            Carrollton, TX 75007
+          </address>
+          <div class="find-us__hours reveal">
+            <p class="label">Hours</p>
+            <table class="hours-table">
+              <tr><td>Monday – Sunday</td><td>1PM – 2AM</td></tr>
+            </table>
+          </div>
+          <a
+            href="https://www.instagram.com/miao_carrollton/"
+            target="_blank"
+            rel="noopener"
+            class="find-us__instagram reveal"
+          >@miao_carrollton ↗</a>
+        </div>
+        <div class="find-us__map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26772.52064531296!2d-96.9093029151581!3d32.98887452199209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c25c317de07dd%3A0xcb8b3949c1a3212f!2sMiao!5e0!3m2!1sen!2sus!4v1779773122517!5m2!1sen!2sus"
+            width="100%"
+            height="400"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Miao location map"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__wordmark">Miao</span>
+      <div class="footer__meta">
+        <p>2700 Old Denton Rd, Ste 103 · Carrollton, TX 75007</p>
+        <p>Daily 1PM – 2AM</p>
+      </div>
+      <a
+        href="https://www.instagram.com/miao_carrollton/"
+        target="_blank"
+        rel="noopener"
+        class="footer__instagram"
+      >Instagram ↗</a>
+    </div>
+    <div class="container footer__credit">
+      <p>Photos by <a href="https://www.pexels.com/photo/top-view-of-iced-coffee-drink-with-shadows-37486085/" target="_blank" rel="noopener">azra melek</a> and <a href="https://www.pexels.com/photo/plants-in-a-restaurant-18721993/" target="_blank" rel="noopener">Arda Kaykısız</a> on <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a>.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

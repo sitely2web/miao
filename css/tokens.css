@@ -1,0 +1,38 @@
+:root {
+  /* Colour */
+  --ink:    #111111;
+  --cream:  #F5F2EC;
+  --warm:   #B8874A;
+  --amber:  #C97B3A;
+  --muted:  #6B6560;
+  --ink-80: rgba(17, 17, 17, 0.8);
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+
+  --type-display: clamp(52px, 7vw, 96px);
+  --type-heading: clamp(32px, 4vw, 52px);
+  --type-subhead: 18px;
+  --type-body:    16px;
+  --type-label:   12px;
+  --type-caption: 13px;
+
+  /* Spacing */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 96px;
+  --space-8: 128px;
+
+  /* Layout */
+  --max-width: 1200px;
+  --gutter: clamp(24px, 5vw, 80px);
+
+  /* Motion */
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --duration: 480ms;
+}
